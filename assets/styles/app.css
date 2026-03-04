@@ -1,3 +1,17 @@
-body {
+/* body {
     background-color: skyblue;
 }
+ */
+ @media screen and (max-width: 1200px) {
+    div#agendas {
+      display: none;
+    }
+  }
+  
+  a {
+    text-decoration: none;
+    }
+
+  .bold-text {
+    font-weight: bold;
+  }
