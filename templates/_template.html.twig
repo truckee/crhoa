@@ -1,0 +1,7 @@
+{# templates/_template.html.twig #}
+<!-- A template for making a new template -->
+{% extends 'base.html.twig' %}
+{% block body %}
+    <body {{ include('style.html.twig') }}
+    <!-- Replace <div id="nav-placeholder"></div> with {{ include('nav.html.twig') }} -->
+{% endblock %}

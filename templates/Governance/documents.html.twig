@@ -1,0 +1,15 @@
+{# templates/documents.html.twig #}
+{% extends 'base.html.twig' %}
+{% block body %}
+    <body {{ include('style.html.twig') }}
+        <div class="container">
+            {{ include('nav.html.twig') }}
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8 text-center bg-light opacity-75 rounded-3">
+                    <h4 class="">Documents</h4>
+                    <p>Each of the documents below may also be found in your TownSq account</p>
+                    <p>Agendas and minutes from previous years can be found on the <a href={{ path('archives') }}>Archives</a>  page.</p> 
+                </div>
+            </div>
+{% endblock %}

@@ -1,0 +1,38 @@
+{# templates/about-neighbors.html.twig #}
+{% extends 'base.html.twig' %}
+{% block body %}
+    <body {{ include('style.html.twig') }}
+    <div class="container">
+    {{ include('nav.html.twig') }}
+    <div class="row mt-2">
+        <div class="col-2"></div>
+        <div class="col-8 text-center bg-light opacity-75 rounded-3">
+            <p style="font-size: 20px; color: #000000;">Meet Your Neighbors</p>
+            <p><a style="font-size: 15px;" href="nominate.html">Nominate a neighbor</a></p>
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col-1"></div>
+        <div class="col-10 p-2 bg-light opacity-75 rounded-3">
+            <div class="row">
+                <div class="col-8 text-center rounded-3">
+                    <figcaption style="color: #000000">
+                        <p style="font-size: 24px;">Kudos to Chris L. for picking up broken glass on the overlook near Heatherwood Court</p>
+                        <p style="font-size: 18px;">February, 2026</p>
+                    </figcaption>                       
+                </div>
+                <div class="col-4">
+                    <img
+                        srcset="../assets/images/Chris-90.png 480w, ../assets/images/Chris-142.png 800w"
+                        sizes="(width <= 600px) 480px,
+                                800px"
+                        src="../assets/images/Chris-142.png"
+                        alt="Chris collecting"
+                        />
+                    <!-- <img src="../assets/images/Chris-142.png" alt="Chris collecting"> -->
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+

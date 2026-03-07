@@ -1,0 +1,85 @@
+{# templates/calendar.html.twig #}
+{% extends 'base.html.twig' %}
+{% block body %}
+<body {{ include('style.html.twig') }}
+    <div class="container">
+        {{ include('nav.html.twig') }}
+        <div class="row mt-5">
+        <!-- meeting schedule -->
+        <div class="col-2"></div>
+        <div class="col-8 bg-light opacity-75  rounded-3">
+            <h4 class="text-center">Meeting agendas & minutes</h4>
+            <p class="text-center">All meetings are held at the Mae Anne fire station at the SW corner of Mae Anne & Sharlands/Somersett</p>
+            <div class="container">
+                    <div class="row">
+                    <div class="col-4">February 24, 2026; 6 PM</div>
+                    <div class="col-5">Board meeting</div>
+                    <div class="col-3"><a href="/governance/agendas/2026.02.24 - CSA - BOD - Meeting Agenda.pdf">Agenda</a></div>
+                </div>
+                <!-- <div class="row">
+                    <div class="col-4">February 24, 2026; 6 PM</div>
+                    <div class="col-5">Board meeting</div>
+                    <div class="col-3"><a href="./2025.02.25 - CSA - BOD Meeting Minutes - APPROVED.pdf">Minutes</a></div>
+                </div> -->
+                <div class="row">
+                    <div class="col-4">May 12, 2026; 6:00 PM</div>
+                    <div class="col-5">Board meeting & annual meeting</div>
+                    <!-- <div class="col-3"><a href="/governance/agendas/2025.05.13 - CSA - Annual and BOD Packet- Mailer.pdf">Agenda</a></div> -->
+                </div>
+                <!-- <div class="row">
+                    <div class="col-4">May 13, 2026; 6:00 PM</div>
+                    <div class="col-5">Board meeting & annual meeting</div>
+                    <div class="col-3"><a href="/governance/agendas/2025.05.13- CSA - Organizational & BOD -  Minutes - DRAFT.pdf">Minutes</a></div>
+                </div> -->
+                <div class="row">
+                    <div class="col-4">August 11, 2026; 6:00 PM</div>
+                    <div class="col-5">Board meeting</div>
+                    <!-- <div class="col-3"><a href="/governance/agendas/2025.08.12 - CSA - BOD - Meeting Agenda.pdf">Agenda</a></div> -->
+                </div>
+                <!-- <div class="row">
+                    <div class="col-4">August 12, 2026; 6:00 PM</div>
+                    <div class="col-5">Board meeting</div>
+                    <div class="col-3"><a href="/governance/agendas/2025.08.12- CSA - BOD -  Minutes - DRAFT.pdf">Minutes</a></div>
+                </div> -->
+                <div class="row">
+                    <div class="col-4">October 20, 2026; 6:00 PM</div>
+                    <div class="col-5">Board meeting</div>
+                    <!-- <div class="col-3"><a href="/governance/agendas/2025.11.11 - CSA - BOD - Meeting Agenda - REVISED.pdf">Agenda</a></div> -->
+                </div>
+                <!-- <div class="row">
+                    <div class="col-4">November 11, 2026; 6:00 PM</div>
+                    <div class="col-5">Board meeting</div>
+                    <div class="col-3"></div>
+                </div> -->
+                <div class="row">
+                    <div class="col-4">November 24, 2026; 10:00 AM</div>
+                    <div class="col-5">
+                        <p>2026 Budget Ratification Meeting (Zoom only)</p>
+                        <!-- <p>Budget Packet: see TownSq\Documents\Announcements</p> -->
+                    </div>
+                    <div class="col-3"></div>
+                </div>
+            </div>                
+        </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-2"></div>
+            <div class="col-8 bg-light opacity-75 rounded-3">
+                <div>
+                    <p>Members can find all hoa documents by logging in to <a href="https://app.townsq.io/login">Associa</a>, our hoa property management service.</p>
+                    <p>In the event of any changes to the meeting dates, members will be notified. Another notice will be sent with 
+                        up-dated meeting dates for any member or board meeting. In addition, the official notice of the 
+                        annual meeting will be included with the annual meeting packet that is mailed not more than 60, nor less than 15, 
+                        days before the new meeting date.
+                    </p>
+                    <p>With respect to any meeting of the members or the board, unit owners: (1) have a right to have a copy of the 
+                        audio recording, the minutes or a summary of the minutes of the meeting provided to the owner upon request 
+                        in electronic format at no charge to the owner or if only available in paper at a cost not to exceed 25 cents 
+                        per page for the first 10 pages, and 10 cents per page thereafter; and (2) have the right to speak to the 
+                        association or board unless the executive board is meeting in executive session.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

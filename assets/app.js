@@ -13,3 +13,4 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap'; // Imports all of Bootstrap's JS features
 
 console.log('This log comes from assets/app.js - welcome to AssetMapper! 🎉');
+

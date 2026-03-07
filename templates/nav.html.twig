@@ -6,24 +6,24 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
                 <li class="nav-item px-lg-5 px-sm-3 px-1">
-                    <a class="nav-link active" style="color:#2922EB;" aria-current="page" href="./index.html">Home</a>
+                    <a class="nav-link active" style="color:#2922EB;" aria-current="page" href={{ path('home') }}>Home</a>
                 </li>
                 <li class="nav-item dropdown px-lg-5 px-sm-3 px-1">
                     <a class="nav-link dropdown-toggle-split" style="color:#2922EB;" href="./#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Governance
                     </a>
                     <ul class="dropdown-menu" style="background-color: #D6F4E5;">
-                        <li><a class="dropdown-item" href="./pages/people.html">People</a></li>
-                        <li><a class="dropdown-item" href="./pages/calendar.html">Calendar</a></li>
-                        <li><a class="dropdown-item" href="./pages/documents.html">Documents</a></li>
-                        <li><a class="dropdown-item" href="./pages/finances.html">Finances</a></li>
+                        <li><a class="dropdown-item" href={{ path('people') }}>People</a></li>
+                        <li><a class="dropdown-item" href={{ path('calendar') }}>Calendar</a></li>
+                        <li><a class="dropdown-item" href={{ path('documents') }}>Documents</a></li>
+                        <li><a class="dropdown-item" href={{ path('finance') }}>Finance</a></li>
                     </ul>
                 </li>
                 <li class="nav-item px-lg-5 px-sm-3 px-1">
-                    <a class="nav-link" style="color:#2922EB;" href="./pages/contact.html">Contact</a>
+                    <a class="nav-link" style="color:#2922EB;" href={{ path('contact') }}>Contact</a>
                 </li>
                 <li class="nav-item px-lg-5 px-sm-3 px-1">
-                    <a class="nav-link" style="color:#2922EB;" href="./pages/about.html">About us</a>
+                    <a class="nav-link" style="color:#2922EB;" href={{ path('about') }}>About us</a>
                 </li>
             </ul>
         </div>

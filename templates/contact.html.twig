@@ -1,0 +1,24 @@
+{# templates/contact.html.twig #}
+{% extends 'base.html.twig' %}
+{% block body %}
+<body {{ include('style.html.twig') }}
+    <div class="container">
+        {{ include('nav.html.twig') }}
+        <div class="row mt-5">
+            <div class="col-2"></div>
+            <div class="col-8 text-center bg-light opacity-75 rounded-3">
+                <!-- <p class="text-start">Try our new app <a href="http://www.townsq.io">Townsq!</a>. The app is available on iPhone and Android devices.  
+                    If you don't have a smart phone, this information can also be viewed on your browser. 
+                    Townsq! allows you to make payments, send messages to management, request maintenance on items in common areas 
+                    and communicate with neighbors.</p> -->
+                <p class="text-start">To report a problem or discuss an issue in regard to the association please contact the management company.</p>
+                <p class="text-center"><a href="mailto:Lcarr@associasn.com">Laura Carr</a><br/>
+                    Associa Sierra Nevada<br/>
+                    10509 Professional Circle #200<br/>
+                    Reno, NV 89521<br/>
+                    Direct Line: (775) 334-7445<br/>
+                    Fax: (775) 626-7374</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,82 @@
+{# templates/_template.html.twig #}
+{% extends 'base.html.twig' %}
+{% block body %}
+    <body {{ include('style.html.twig') }}
+    <div class="container">
+    {{ include('nav.html.twig') }}
+        <div class="row mt-5">
+            <div class="col-2"></div>
+            <div class="col-8 bg-light opacity-75 rounded-3">
+                <h4 class="text-center">Archives</h4>
+                Each of the archive ('.zip') files below contain the available 
+                agenda and minutes PDF files for that calendar year. The filenames 
+                include the date of the meeting's agenda and minutes. Dates have the 
+                format yyyy-mm-dd. For example, the filename fo the agenda for  May 26, 2022 
+                begins "agenda-2022-05-26...". Filenames with the date followed by a B 
+                (e.g., "agenda-2022-05-26-B...") are for Board meetings, or M for Member
+                meetings.
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-5"></div>
+            <div class="col-2 bg-light opacity-75 rounded-3">
+                <h5 class="text-center">Archive files</h5>
+                <div class="overflow-auto" style="height: 300px;">
+                    <table class="table">
+                        <tr>
+                            <td><a href="{{ path('app_download_file', {'filename': '2025.zip'}) }}">2025.zip</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="{{ path('app_download_file', {'filename': '2024.zip'}) }}">2024.zip</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="{{ path('app_download_file', {'filename': '2023.zip'}) }}">2023.zip</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="{{ path('app_download_file', {'filename': '2022.zip'}) }}">2022.zip</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="{{ path('app_download_file', {'filename': '2021.zip'}) }}">2021.zip</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="{{ path('app_download_file', {'filename': '2020.zip'}) }}">2020.zip</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="{{ path('app_download_file', {'filename': '2019.zip'}) }}">2019.zip</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="{{ path('app_download_file', {'filename': '2018.zip'}) }}">2018.zip</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="{{ path('app_download_file', {'filename': '2017.zip'}) }}">2017.zip</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="{{ path('app_download_file', {'filename': '2016.zip'}) }}">2016.zip</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="{{ path('app_download_file', {'filename': '2015.zip'}) }}">2015.zip</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="{{ path('app_download_file', {'filename': '2014.zip'}) }}">2014.zip</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="{{ path('app_download_file', {'filename': '2013.zip'}) }}">2013.zip</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="{{ path('app_download_file', {'filename': '2012.zip'}) }}">2012.zip</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="{{ path('app_download_file', {'filename': '2011.zip'}) }}">2011.zip</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="{{ path('app_download_file', {'filename': '2010.zip'}) }}">2010.zip</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="{{ path('app_download_file', {'filename': '2009.zip'}) }}">2009.zip</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>          
+{% endblock %}

@@ -1,0 +1,38 @@
+{# templates/about-questions.html.twig #}
+{% extends 'base.html.twig' %}
+{% block body %}
+    <body {{ include('style.html.twig') }}
+    <div class="container">
+        {{ include('nav.html.twig') }}
+        <div class="row mt-5">
+            <div class="col-2"></div>
+            <div class="col-8 bg-light opacity-75 rounded-3">
+                <span class="fs-5">Occasionally asked questions</span>
+                <table class="table text-start"">
+                    <thead>
+                        <tr>
+                            <td>Question</td>
+                            <td>Answer</td>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>Where is Castle Rock HOA?</td>
+                        <td>Castle Rock HOA is a neighborhood of 182 homes on the southern face of Peavine Mountain in Reno, Nevada.The elevation here is about 5,400' above sea level. We're on the northern border of the Sierra Vista Park, a former golf course now serving as a bicycling park for all of Reno. Many homes here have fantastic views of the Mount Rose Wilderness and the Crystal Range mountains in California</td></td>
+                    </tr>
+                    <tr>
+                        <td>Who handles Castle Rock HOA's affairs?</td>
+                        <td><p>Associa Sierra North serves Northern Nevada with a dedicated team of community management experts, providing secure financial services and on-demand maintenance.</p><p>Associasn uses TownSq for its comprehensive mobile and web-based application designed to streamline communication and operations for Homeowners' Associations (HOAs), property managers, and residents.</p></td>
+                    </tr>
+                    <tr>
+                        <td>When is Board election?</td>
+                        <td>Elections are held in May at the annual meeting.</td>
+                    </tr>
+                    <tr>
+                        <td>When does the Board meet?</td>
+                        <td>The Board meets four times a year plus a budget ratification meeting in November.</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+{% endblock %}
