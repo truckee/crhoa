@@ -13,7 +13,7 @@ class HomeController extends AbstractController
     public function index(): Response
         {
             return $this->render('home.html.twig', [
-                'imageUrl' => 'images/castle-rock-120.jpg',
+                'imageUrl' => 'images/castle-rock.jpg',
             ]);
         }
 }
