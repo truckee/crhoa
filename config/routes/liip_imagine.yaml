@@ -1,0 +1,5 @@
+_liip_imagine:
+    resource: "@LiipImagineBundle/Resources/config/routing.yaml"
+# config/routes.yaml
+progressive_image:
+    resource: "@ProgressiveImageBundle/config/routes.php"

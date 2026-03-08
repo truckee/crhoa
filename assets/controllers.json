@@ -9,6 +9,15 @@
                 "enabled": false,
                 "fetch": "eager"
             }
+        },
+        "@tito10047/progressive-image-bundle": {
+            "progressive-image": {
+                "enabled": true,
+                "fetch": "eager",
+                "autoimport": {
+                    "@tito10047/progressive-image-bundle/styles/style.css": true
+                }
+            }
         }
     },
     "entrypoints": []
