@@ -9,7 +9,59 @@
                 <div class="col-8 text-center bg-light opacity-75 rounded-3">
                     <h4 class="">Documents</h4>
                     <p>Each of the documents below may also be found in your TownSq account</p>
-                    <p>Agendas and minutes from previous years can be found on the <a href={{ path('archives') }}>Archives</a>  page.</p> 
+                    <p>documents and minutes from previous years can be found on the <a href={{ path('archives') }}>Archives</a>  page.</p> 
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col-2"></div>
+                <div class="col-md-4 col-sm-6  bg-light opacity-75  rounded-3">
+                    <h4 class="text-center">CC&amp;R, etc.</h4>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Document</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td><a href="{{ asset('pdfs/documents/CRHOA_CCRS.pdf') }}" target="_blank">CC&amp;R</a></td>
+                            <td>Covenants, Conditions &amp; Restrictions</td>
+                        </tr>
+                        <tr>
+                            <td><a href="{{ asset('pdfs/documents/Revised-RR.pdf') }}" target="_blank">Rules and Regulations</a></td>
+                            <td>Rules and Regulations associated with CC&amp;R'S; 2023</td>
+                        </tr>
+                        <tr>
+                            <td><a href="{{ asset('pdfs/documents/CHARTER_ACC.pdf') }}" target="_blank">ACC Charter</a></td>
+                            <td>Charter for Architectural Control Committee</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-md-4 col-sm-6  bg-light opacity-75  rounded-3">
+                    <h4 class="text-center">Miscellany</h4>
+                    <table class="table">
+                        <tr>
+                            <td><a href="{{ asset('pdfs/documents/CR HOA ARCHITECTURAL FORM REV_08_14_2025.pdf') }}" target="_blank">Architectural form</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="{{ asset('pdfs/documents/shed-policy.pdf') }}" target="_blank">Shed guideline</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="{{ asset('pdfs/documents/collection-policy.pdf') }}" target="_blank">Collection policy</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="{{ asset('pdfs/documents/delinquent-policy.pdf') }}" target="_blank">Delinquent policy</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="{{ asset('pdfs/documents/assessment-policy.pdf') }}" target="_blank">Assessment policy</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="{{ asset('pdfs/documents/hydrants.pdf') }}" target="_blank">Fire hydrant locations</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="{{ asset('pdfs/documents/volunteering.pdf') }}" target="_blank">Volunteering</a></td>
+                        </tr>
+                    </table>
                 </div>
             </div>
 {% endblock %}
