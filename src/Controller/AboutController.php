@@ -35,4 +35,13 @@ class AboutController extends AbstractController
             ]);
         }
 
+    #[Route('/nominate', name: 'nominate')]
+
+    public function nominate(): Response
+        {
+            return $this->render('/About/nominate.html.twig', [
+                'imageUrl' => 'images/balloons.jpg',
+            ]);
+        }
+
 }
